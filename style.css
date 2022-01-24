@@ -16,14 +16,18 @@
 }
 
 .imglogo {
-  width: 18%;
+  width: 15%;
+
+  margin-left: 18%;
+}
+.imglogobig {
+  width: 12%;
 }
 
 body {
   font-family: "Lato", sans-serif;
   color: #333;
   line-height: 1.6;
-  
 }
 
 ul {
@@ -189,7 +193,7 @@ pre {
 
 /* Mailing */
 .cloud .grid {
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
 }
 
 /* Languages */
@@ -218,7 +222,7 @@ pre {
 }
 .margin-top {
   margin-top: 5%;
-} 
+}
 
 /* Features */
 .features-head img,
@@ -270,18 +274,13 @@ pre {
 }
 
 /* Footer */
-.white {
-  background-color: ;
-}
 
-}
 .footer .social a {
   margin: 0 10px;
 }
 
 .fa-github:hover {
   color: #000000;
- 
 }
 
 .fa-facebook:hover {
@@ -415,22 +414,78 @@ pre {
 }
 
 .midcode {
- 
-    font-size: .4 rem;
-    font-family: "Montserrat", sans-serif;
-  }
-
+  font-size: 0.4 rem;
+  font-family: "Montserrat", sans-serif;
+}
 
 .green {
   color: #39b54a;
 }
 
-.btn {
- 
+.mailingList {
+  background-color: rgba(0, 34, 64);
+  color: white;
+  margin-top: 9%;
 }
 
 .foot {
   background-color: #dadada;
+}
 
- 
+/*Log In Forms*/
+
+#signUp {
+  margin: 2px;
+}
+
+#signUp a {
+  text-decoration: underline;
+  color: #0020af;
+}
+
+#forgot {
+  margin: 2px;
+  text-align: right;
+  text-decoration: underline;
+  color: #0020af;
+}
+
+.link {
+  text-decoration: underline;
+  color: #0020af;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: white;
+  color: #002240;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-style: none !important ;
+}
+
+.demo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3%;
+}
+
+.demo a {
+  text-decoration: solid !important;
+  color: #0a58bd;
 }
