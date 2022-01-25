@@ -11,7 +11,8 @@
     />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>C+P | Deployment</title>
+    <link rel="icon" type="image/x-icon" href="/img/cpcircle.png" />
+    <title>[CODE + PICKLE]</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -30,34 +31,188 @@
         </nav>
       </div>
     </div>
-    <!-- Head -->
-    <section class="docs-head bg-primary py-3">
+
+    <!-- Showcase -->
+    <section class="showcase">
       <div class="container grid">
-        <div>
-          <h1 class="xl">About</h1>
-          <p class="lead"></p>
-        </div>
-        <img src="images/docs.png" alt="" />
-      </div>
-    </section>
-
-    
-        <div class="card">
-          <h2>What is Code+Pickle?</h2>
+        <div class="showcase-text">
+          <h1>Faster, Easier, Deployment</h1>
           <p>
+            <span class="logo , midcode">
+              <span class="green"></span>CODE +<span class="green">
+                PICKLE</span
+              ></span
+            >
+            is a cloud-based platform that can be used to build and deploy apps
+            inside a fully managed runtime environment.
+          </p>
+          <a href="#" class="btn btn-outline">Read More</a>
+        </div>
+
+        <div class="showcase-form bg-light card">
+          <h2>Sign In</h2>
+        
+          <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+          <form>          
+         
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Username"
+                name="usrnm"
+              />
+            </div>
+  
+
+            <div class="input-container">
+              <i class="fa fa-lock icon"></i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Password"
+                name="usrnm"
+              />
+            </div>
+            <p id="forgot">
+          <a href="#">Forgot password?</a>
+            </p>
             
-         Code+Pickle is a container-based cloud Platform as a Service (PaaS). Developers use Code+Pickle to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.
-            
-         Code+Pickle is fully managed, giving developers the freedom to focus on their core product without the distraction of maintaining servers, hardware, or infrastructure. The Code+Pickle experience provides services, tools, workflows, and polyglot support—all designed to enhance developer productivity.
-            
-            Explore our products, pricing, free offerings, language support, and Elements Marketplace.
-            
-         Code+Pickle works with a wide variety of customers and partners. Learn more about how we support digital and software development agencies, partners, and enterprise companies.
-         </p>
+            <input type="submit" value="Sign In" class="btn btn-primary btn-block" />
+          </form>
+          <br />
+          <hr />
+          <p id="signUp">
+            Don't have an account? <a href="#">Signup for Free</a>
+          </p>
+        
+      </div>
+    </section>
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>CP Dashboard</h3>
+            <p class="text-secondary">
+              Manage all you web apps in one place with our powerful CP
+              dashboard.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>Cloud Backup</h3>
+            <p class="text-secondary">
+              Get peace of mind knowing your files are backed up securely in the
+              cloud.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3>Content Library</h3>
+            <p class="text-secondary">
+              Get access to our snippet library with over 1,000 interface
+              components.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Cli -->
+    <section class="cli">
+      <div class="container grid">
+        <img src="img/npm.jpg" alt="" />
+        <div class="card">
+          <h3>Easy to use, cross platform CLI</h3>
+        </div>
+        <div class="card">
+          <h3>Deploy in seconds</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mailing List -->
+    <section class="cloud mailingList my-2 py-2">
+      <div class="container grid">
+        <div class="text-center">
+          <h2 class="lg">Join our mailing list</h2>
+          <p class="lead my-1">
+            No spam here. Just a monthly update and the occassional giveaway.
+          </p>
+          <a href="#" class="btn btn-outline">Sign Up </a>
+        </div>
+        <img src="images/cloud.png" alt="">
+     
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="cloud my-2 py-2">
+      <div class="container grid">
+        <div class="text-center">
+          <h2 class="lg">We speak your language</h2>
+       
+      </div>
+    </section>    <h3 class="text-center my-1">
+      Our modern platform makes it easy for you to manage and run apps written
+      in a variety of programming languages.
+    </h3>
+  
+    <section class="languages">
+     
+ 
+      <div class="container flex">
+        <div class="card">
+          <h4>Node.js</h4>
+          <img src="img/node.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Python</h4>
+          <img src="img/python.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>C#</h4>
+          <img src="img/csharp.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Ruby</h4>
+          <img src="img/ruby.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>PHP</h4>
+          <img src="img/php.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Scala</h4>
+          <img src="img/scala.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <br>
+    <h2 class="demo">Have a question?<a href="#"> Request a demo for your enterprise</a></h2>
     <!-- Footer -->
     <section class="foot">
       <footer class="footer bg-dark text-white py-5">
@@ -80,7 +235,7 @@
               <li><a href="docs.html">Documentation</a></li>
             </ul>
           </nav>
-
+          
           <div class="social">
             <a href="#"><i class="fab fa-github fa-2x"></i></a>
             <a href="#"><i class="fab fa-stack-overflow fa-2x"></i></a>
@@ -88,6 +243,7 @@
             <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
             <a href="$"><i class="fab fa-youtube fa-2x"></i></a>
+            
           </div>
         </div>
       </footer>
